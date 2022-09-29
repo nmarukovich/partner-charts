@@ -5013,6 +5013,30 @@ entries:
     urls:
     - assets/portworx/portworx-essentials-2.9.100.tgz
     version: 2.9.100
+  psmdb-db:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Percona Server for MongoDB
+      catalog.cattle.io/release-name: psmdb-operator
+      catalog.cattle.io/upstream-version: 1.13.0
+    apiVersion: v2
+    appVersion: 1.13.0
+    created: "2022-09-29T14:59:35.563214+04:00"
+    description: A Helm chart for installing Percona Server MongoDB Cluster Databases
+      using the PSMDB Operator.
+    digest: d20304f52115d33e73de786d4ce2b9ba8a727f858e979651322b563b657cc0ab
+    home: https://www.percona.com/doc/kubernetes-operator-for-psmongodb/index.html
+    icon: https://github.com/percona/percona-server-mongodb-operator/blob/main/operator.png
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: ivan.pylypenko@percona.com
+      name: cap1984
+    - email: tomislav.plavcic@percona.com
+      name: tplavcic
+    name: psmdb-db
+    urls:
+    - assets/psmdb-db/psmdb-db-1.13.0.tgz
+    version: 1.13.0
   psmdb-operator:
   - annotations:
       catalog.cattle.io/certified: partner
